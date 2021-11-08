@@ -36,7 +36,7 @@
 
       ​	[Content length: 128]
 
-   7. 没有在raw data中找到所有的header
+   7. 有，例如：server
 
       
 
@@ -82,7 +82,7 @@
 
        发送了三个HTTP GET请求，地址是128.119.245.12  128.119.145.12  178.79.137.164
 
-   17. 根据捕捉到的结果，应该是串行下载<img src="photos\lab02-4-1.png" style="zoom:50%;" />
+   17. 根据捕捉到的结果，应该是串行下载，当pearson.png请求并收到后，发送了BE_cover_small.jpg的请求<img src="photos\lab02-4-1.png" style="zoom:50%;" />
    
        
 
